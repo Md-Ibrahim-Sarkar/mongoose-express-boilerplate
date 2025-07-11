@@ -19,7 +19,6 @@ A minimal and modular boilerplate for building RESTful APIs using **Express.js**
 
 ## 🗂 Folder Structure
 
----
 ├── src
 │ ├── app
 │ │ ├── modules
@@ -30,24 +29,24 @@ A minimal and modular boilerplate for building RESTful APIs using **Express.js**
 │ │ │ └── user.service.ts
 │ │ └── ...
 │ ├── config
-│ │  └──  env.ts
+│ │ └── env.ts
 │ ├── errorHelpers
-├ |   └── AppError.ts
-├ |── middlewares
-├ |   |── globalErrorHandler.ts
-├ |   └── notFound.ts 
-├ |── routes
-├ |   └── index.ts
-├ |── middlewares
+│ │ └── AppError.ts
+│ ├── middlewares
+│ │ ├── globalErrorHandler.ts
+│ │ └── notFound.ts
+│ ├── routes
+│ │ └── index.ts
 │ ├── utils
-├ |  |──catchAsync.ts
-├ |  └── sendResponse.ts
+│ │ ├── catchAsync.ts
+│ │ └── sendResponse.ts
 │ ├── app.ts
 │ └── server.ts
 ├── .env
 ├── .gitignore
 ├── package.json
 └── README.md
+
 ---
 
 ## ⚙️ Tech Stack

@@ -18,36 +18,7 @@ A minimal and modular boilerplate for building RESTful APIs using **Express.js**
 ---
 
 ## 🗂 Folder Structure
-
-├── src
-│ ├── app
-│ │ ├── modules
-│ │ │ └── user
-│ │ │ ├── user.model.ts
-│ │ │ ├── user.routes.ts
-│ │ │ ├── user.controller.ts
-│ │ │ └── user.service.ts
-│ │ └── ...
-│ ├── config
-│ │ └── env.ts
-│ ├── errorHelpers
-│ │ └── AppError.ts
-│ ├── middlewares
-│ │ ├── globalErrorHandler.ts
-│ │ └── notFound.ts
-│ ├── routes
-│ │ └── index.ts
-│ ├── utils
-│ │ ├── catchAsync.ts
-│ │ └── sendResponse.ts
-│ ├── app.ts
-│ └── server.ts
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
-
----
+<pre> ``` ├── src │ ├── app │ │ ├── modules │ │ │ └── user │ │ │ ├── user.model.ts │ │ │ ├── user.routes.ts │ │ │ ├── user.controller.ts │ │ │ └── user.service.ts │ │ └── ... │ ├── config │ │ └── env.ts │ ├── errorHelpers │ │ └── AppError.ts │ ├── middlewares │ │ ├── globalErrorHandler.ts │ │ └── notFound.ts │ ├── routes │ │ └── index.ts │ ├── utils │ │ ├── catchAsync.ts │ │ └── sendResponse.ts │ ├── app.ts │ └── server.ts ├── .env ├── .gitignore ├── package.json └── README.md ``` </pre>
 
 ## ⚙️ Tech Stack
 

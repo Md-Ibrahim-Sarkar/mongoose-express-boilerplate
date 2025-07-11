@@ -18,7 +18,7 @@ A minimal and modular boilerplate for building RESTful APIs using **Express.js**
 ---
 
 ## 🗂 Folder Structure
-
+```
 
 ├── src
 │ ├── app
@@ -48,8 +48,7 @@ A minimal and modular boilerplate for building RESTful APIs using **Express.js**
 ├── package.json
 └── README.md
 
-
----
+```
 
 ## ⚙️ Tech Stack
 
@@ -69,7 +68,7 @@ A minimal and modular boilerplate for building RESTful APIs using **Express.js**
 git clone https://github.com/your-username/express-mongoose-boilerplate.git
 cd express-mongoose-boilerplate
 npm install
-
+```
 
 🧪 Run Project
 ```bash
